@@ -1,130 +1,192 @@
 body {
-  margin: 0px;
-  text-align: center;
-  font-family: 'Merriweather', serif;
-  }
+  font-family: "Montserrat", sans-serif;
+}
 
 h1 {
-  color: #94b4a4;
-  margin: 0;
-  font-family: 'Sacramento', cursive;
-  font-size: 4.625rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
 }
 
-h6 {
-  color: #94b4a4;
-  font-size: 2rem;
-  font-weight: normal;
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
 }
 
-h2 {
-  font-family: 'Montserrat', sans-serif;
-  color: #11999E;
+#title {
+  background-color: #ff4c68;
+  color: #fff;
 }
 
-h3 {
-  font-family: 'Montserrat', sans-serif;
-  color: #11999E;
+.container-fluid {
+  padding: 3% 15% 7%;
 }
 
-.btn {
-  color: #11999E;
+.navbar-brand {
+  font-family: Ubuntu;
+  font-size: 2.5rem;
+  font-weight: bold;
 }
 
-.footer-link {
-  color: #11999E;
+.nav-item {
+  padding: 0 18px;
 }
 
-.top-container {
-  background-color: #d2f5e3;
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Monserrat-Light", sans-serif;
+}
+
+/* Download Buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* Features */
+#features {
+  text-align: center;
+  padding: 7% 5%;
+  line-height: 3rem;
+  background-color: #fff;
   position: relative;
-  padding-top: 100px;
+  z-index: 1;
 }
 
-.top-cloud {
-  position: absolute;
-  left: 900px;
-  bottom: 700px;
+.fa-check-circle {
+  color: #ef8172;
+  margin-bottom: 1rem;
 }
 
-.bottom-cloud {
-  position: absolute;
-  right: 900px;
+.fa-check-circle:hover {
+  color: #ff4c88;
+  margin-bottom: 1rem;
 }
 
-.Alinapic {
-  height: 150px;
-  margin: 50px auto 20px auto;
+.fa-bullseye {
+  color: #ef8172;
+  margin-bottom: 1rem;
 }
 
-.skill-row {
-  width: 50%;
-  margin: 100px auto 100px auto;
-  text-align: left;
-  line-height: 2rem;
+.fa-bullseye:hover {
+  color: #ff4c88;
 }
 
-.img1 {
-  width: 25%;
-  float: left;
-  margin-right: 30px;
+.fa-heart {
+  color: #ef8172;
 }
 
-.img2 {
-  width: 25%;
-  float: left;
-  margin-right: 30px;
+.fa-heart:hover {
+  color: #ff4c88;
 }
 
-.img3 {
-  width: 25%;
-  float: left;
-  margin-right: 30px;
+.features-h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
 }
 
-.middle-container {
-margin-top: 20px;
-margin-bottom: 100px;
+.features-p {
+  color: #8f8f8f;
 }
 
-.bottom-container {
-background-color: #d2f5e3;
-padding: 50px 0 20px;
+/* Testimonial Section */
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
 }
 
-hr {
-  border: dotted #94b4a4 6px;
-  border-bottom: none;
-  width: 4%;
-  margin: 100px auto;
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.Pebbles {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.Beverly {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* Press Section */
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
   }
 
-  a {
-  text-decoration: none;
+  .title-image {
+    position: static;
+    transform: rotate(0);
   }
-
-  a:hover {
-    color: white;
-  }
-
-.button{
- text-decoration:none;
- text-align:center;
- padding:11px 35px;
- border:solid 1px #004F72;
- -webkit-border-radius:4px;
- -moz-border-radius:4px;
- border-radius: 4px;
- font:15px Arial, Helvetica, sans-serif;
- font-weight:bold;
- color:#ffffff;
- background:#d2f5e3;
- -webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
- -moz-box-shadow: 0px 0px 2px #bababa,  inset 0px 0px 1px #ffffff;
- box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
 }
 
-.copywright {
-  color: white;
-  font-size: 0.75rem;
+/* Call to Action */
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.cta-text {
+  font-family: Montserrat, sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: #fff;
+}
+
+/* Footer */
+#footer {
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.footer-text {
+  color: #8f8f8f;
+}
+
+.footer-buttons {
+  margin: 20px 10px;
 }
